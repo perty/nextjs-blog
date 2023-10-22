@@ -37,6 +37,9 @@ export default function Home({ allPostsData }) {
                     ))}
                 </ul>
             </section>
+            <section>
+                <Link href="/api/hello">API call</Link>
+            </section>
         </Layout>
     );
 }
