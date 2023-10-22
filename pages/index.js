@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Layout, {siteTitle} from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import Image from "next/image";
 import { getSortedPostsData } from '../lib/posts';
+import Link from "next/link";
+import Date from "../components/date";
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
@@ -19,11 +20,6 @@ export default function Home({ allPostsData }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header>
-                <Image src="/images/profile.jpg" width="140" height="140" alt="picture of Per"
-                       className={utilStyles.borderCircle}/>
-                <div className={utilStyles.headingXl}>Per</div>
-            </header>
             <section className={utilStyles.headingMd}>
                 <p>Hej! Jag heter Per och jag är en programmerare.</p>
             </section>
@@ -32,11 +28,11 @@ export default function Home({ allPostsData }) {
                 <ul className={utilStyles.list}>
                     {allPostsData.map(({ id, date, title }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            {title}
+                            <Link href={`/posts/${id}`}>{title}</Link>
                             <br />
-                            {id}
-                            <br />
-                            {date}
+                            <small className={utilStyles.lightText}>
+                                <Date dateString={date} />
+                            </small>
                         </li>
                     ))}
                 </ul>
