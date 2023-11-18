@@ -37,7 +37,7 @@ representerade i koden hon hade läst och dels verkade det som att intressentern
 
 – Exponering, kunde en säga ena dagen och mena något om lån. Nästa dag handlade det om investeringar och tredje dagen
 var det marknadsföring.
-Den stora Mässan
+## Den stora Mässan
 En dag kom det ett bud från företagsledningen om att BOFF skulle vara utställare på en stor mässa. Här gällde det att
 glänsa och visa hur modernt företag man var så att man kunde attrahera nya kunder men framförallt ville man imponera på
 riskkapitalisterna. Då kunde det bli ett rejält tillskott i kassan.
