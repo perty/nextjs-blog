@@ -3,8 +3,6 @@ title: 'Varför Service Worker'
 date: '2023-11-18'
 ---
 
-# Varför Service Worker
-
 PWA står för "Progressive Web App" och Service Worker (SW) är en central del av det. Vad är PWA och varför bry sig?
 
 De flesta använder privat sina mobiltelefoner när de ska göra något som till exempel ett bankärende. Som bank behöver
