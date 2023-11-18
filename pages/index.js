@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
                 </ul>
             </section>
             <section>
-                <Link href="/api/hello">API call</Link>
+                <Link href="/api/hello">Demonstrera ett API anrop</Link>
             </section>
         </Layout>
     );
