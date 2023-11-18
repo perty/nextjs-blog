@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from "next/link";
 import Image from "next/image";
 
-export const siteTitle="THE SITE";
+export const siteTitle="ArtComputer blog";
 export const name="Per Lundholm"
 
 
