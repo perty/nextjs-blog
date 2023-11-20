@@ -16,7 +16,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
     const paths = getAllPostIds();
     return {
-        paths: ['/posts2/askungen', '/posts2/askungen/askungen_felicia.png'],
+        paths: paths,
         fallback: false,
     };
 }

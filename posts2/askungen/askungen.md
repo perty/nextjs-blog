@@ -126,7 +126,7 @@ Felicia tittade Askungen i ögonen.
 – Det är det som är nästa steg, förklarade Felicia, nu ska du hålla isär de tekniska hänsynen från de affärslogiska. Vi
 lyssnade på en gubbe som heter Erik och nu blir det en annan som heter Alistair.
 
-![Askungen och Felicia vid en tavla](askungen_felicia.png)
+![Askungen och Felicia vid en tavla](../../public/images/askungen/askungen_felicia.png)
 
 – Jaha, men vad gör jag då? Askungen kände att huvudet började bli överfullt och nu skulle det komma fler idéer att ta
 in. Felicia ritade en hexagon på tavlan.
